@@ -1,16 +1,75 @@
-# React + Vite
+# Task Board Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+https://hintro-task-board-utqo.vercel.app
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## React Compiler
+This is a frontend Task Board application built as part of the Frontend Internship Assignment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application includes:
+- Static login flow
+- Protected routes
+- Drag & drop task management
+- Persistent state using localStorage
+- Activity log tracking
+- Search, filter, and sorting functionality
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React (Vite)
+- React Router
+- Context API (State Management)
+- localStorage for persistence
+- Vitest + Testing Library for testing
+- Deployed on Vercel
+
+---
+
+## Login Credentials
+
+Email: intern@demo.com  
+Password: intern123  
+
+---
+
+## Features Implemented
+
+### Authentication
+- Static login validation
+- Error messages for invalid credentials
+- Remember me functionality
+- Logout support
+- Route protection
+
+### Task Board
+- Fixed columns: Todo, Doing, Done
+- Create task
+- Edit task
+- Delete task
+- Drag & Drop between columns
+- Search by title
+- Filter by priority
+- Sort by due date
+- Activity log
+
+### Persistence
+- State saved in localStorage
+- Safe handling of empty storage
+- Reset board option
+
+### Testing
+- 3 basic tests implemented
+- Component rendering tests
+
+---
+
+## Setup Instructions (Run Locally)
+
+1. Clone the repository
+2. Install dependencies:
+
