@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.navbar h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.reset-btn {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.reset-btn:hover {
+  background-color: #d97706;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+}

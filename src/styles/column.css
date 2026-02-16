@@ -1,0 +1,25 @@
+.columns-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  background-color: #e5e7eb;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.column h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.empty-message {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 20px;
+}
